@@ -32,7 +32,6 @@ console.log(trampoline(flatten([[[[[0]], [1]], [[[2], [3]]], [[4], [5]]]])));
 let primeList = document.getElementById("primeNumber");
 function addPrime(n, end) {
     let isPrime = true;
-    console.log("TEst");
     if(end > n) {
         alert("Done");
         return;
